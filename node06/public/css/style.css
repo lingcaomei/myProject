@@ -1,0 +1,31 @@
+
+*{padding: 0;margin: 0;}
+body{    font-family: "微软雅黑";background: #333;}
+.register{
+    width: 544px;
+    margin: 100px auto;
+    height: 174px;
+    background: #fff;
+    padding: 132px 41px;
+    border-radius: 10px;
+}
+.register div{margin-bottom: 15px;}
+.register span{display: inline-block;width: 100px;    }
+
+.username input,.password input{
+    width: 400px;
+    line-height: 26px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-family: "微软雅黑";
+}
+.register-btn{margin-left: 100px;}
+.register-btn input{
+    width: 120px;
+    height: 38px;
+    background: #4775AF;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;font-family: "微软雅黑";}

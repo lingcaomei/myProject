@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="register">
+    <!-- 可以再服务器端直接用重定向 res.redirect('/index') 跳转-->
+<!--<form  role="form" method="post">-->
+    <!--<div class="username"><span>用户名：</span><input id="username" name="username" type="text"/ placeholder="请输入用户名"></div>-->
+    <!--<div class="password"><span>密码：</span><input id="password" name="password" type="text"/ placeholder="请输入密码"></div>-->
+    <!--<div class="register-btn"><input id="loginbtn" type="submit" value="登陆"/ ></div>-->
+<!--</form>-->
+
+    <!-- ajax请求 在成功或失败后 执行 跳转 用localtion.href-->
+    <form  role="form">
+        <div class="username"><span>用户名：</span><input id="username" name="username" type="text"/ placeholder="请输入用户名"></div>
+        <div class="password"><span>密码：</span><input id="password" name="password" type="text"/ placeholder="请输入密码"></div>
+        <div class="register-btn"><input id="loginbtn" type="button" value="登陆"/ ></div>
+    </form>
+
+
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/login.js"></script>
+</div>
+</body>
+</html>
